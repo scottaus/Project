@@ -37,14 +37,15 @@ nav nav{
     margin-bottom: 10px;
     margin-left: 10px;
     margin-right: 10px;
-    color: #b30000;
+    color: #6600cc;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 section p{
     font-family: Cookie;
     font-size: 30px;
     color: orange;
-
 }
 
 section{
@@ -57,3 +58,17 @@ section{
     margin-left: 10px;
     margin-right: 10px;
 }
+
+ul {
+    margin: 0;
+  }
+  ul.dashed {
+    list-style-type: none;
+  }
+  ul.dashed > li {
+    text-indent: -5px;
+  }
+  ul.dashed > li:before {
+    content: "-";
+    text-indent: -5px;
+  }
