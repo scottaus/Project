@@ -1,6 +1,6 @@
 body{
-    background-color: #6600cc;
-    background-repeat: no-repeat;
+    background-image:url("6500ca.png");
+    background-repeat: repeat;
     background-size: contain;
     background-position: center center;
     background-attachment: fixed;
@@ -16,10 +16,11 @@ header{
     padding: 0 20pX 0 20px;
     border: 10px double orange;
     font-weight: bold;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top:  0.625em;
+    margin-bottom: 0.625em;
+    margin-left: 0.625em;
+    margin-right: 0.625em;
+    font-family: Abeezee;
 }
 
 nav{
@@ -53,10 +54,10 @@ section{
     text-align: center;
     padding: 0 20pX 0 20px;
     border: 10px double orange;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-top:  0.625em;
+    margin-bottom: 0.625em;
+    margin-left: 0.625em;
+    margin-right: 0.625em;
 }
 
 ul {
@@ -72,3 +73,39 @@ ul {
     content: "-";
     text-indent: -5px;
   }
+
+aside aside{
+    background-color: #6600cc;
+    text-align: center;
+}
+
+aside a{
+    letter-spacing: .05em;
+    word-spacing: .1em;
+}
+
+aside img{
+    background-color: #b30000;
+    text-align: center;
+    color: orange;
+    border: 10px double orange;
+    font-weight: bold;
+    margin-left: 0.625em;
+    margin-right: 0.625em;
+    margin-top: 0.625em;
+    margin-bottom: 0.625em;
+}
+
+section a{
+    color:rgb(206, 135, 4);
+    text-decoration: none;
+}
+
+li a{
+    color:#af62fc;
+    text-decoration: none;
+}
+
+header h1{
+    text-shadow: 10px 10px 2px rgb(206, 135, 4);
+}
