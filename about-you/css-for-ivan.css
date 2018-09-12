@@ -46,7 +46,7 @@ nav nav{
 section p{
     font-family: Cookie;
     font-size: 30px;
-    color: orange;
+    color: rgba(255, 136, 0, 0.822);
 }
 
 section{
@@ -97,10 +97,13 @@ aside img{
 }
 
 section a{
-    color:rgb(206, 135, 4);
+    color:rgb(12, 9, 3);
     text-decoration: none;
 }
 
+nav aside{
+    list-style-type: none;
+}
 li a{
     color:#af62fc;
     text-decoration: none;
@@ -109,3 +112,4 @@ li a{
 header h1{
     text-shadow: 10px 10px 2px rgb(206, 135, 4);
 }
+
