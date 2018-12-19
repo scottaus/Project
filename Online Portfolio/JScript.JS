@@ -1,8 +1,5 @@
-$(document).ready(function () {
-    $(".home").click(function () {
-        $(".PageHome").css
-        ("background-color","red", )
-        });
-    
-
-})
+$(document).ready(function(){
+    $(".clickMe").click(function(){
+      $(".ToggleMe").toggle(1000);
+    });
+  });
