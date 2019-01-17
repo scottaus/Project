@@ -3,19 +3,16 @@ $(document).ready(function(){
     $("#button").click(function(){
 
         showInfo ();
+        $(".goaway").hide()
         $("#MadLip, #MadLip2").hide(1000);
-
+        $(".goaway").show(1000)
     })
 
  });
 
 
 //  *************************************
-    var Noun
-    var Noun2
-    var Noun3
-    var Noun4
-    var Place
+
 
 
 
@@ -50,8 +47,9 @@ function showInfo(){
     var message12 ="Is now the " + Number1 + " hours` traffic of our stage;"
     var message13 ="The which if you with " + Adjective2 + " " + BodyPart + " attend,"
     var message14 ="What here shall " + Verb2 + ", our toil shall strive to mend."
-    var Thanks = "Thank you for Playing this MadLip. This MadLip was created by Tami Brass"
+    var Thanks = "Thank you for Playing this MadLib. This MadLib was created by Tami Brass"
 
+    
     $("#Thanks").text(Thanks).show().animate({"left": '0px',"opacity":"1"}, "slow")
     $("#output").text(message).show().animate({"left":"0px","opacity":"1"}, "slow")
     $("#output2").text(message2).show().animate({"left":"0px","opacity":"1"}, "slow")
