@@ -6,6 +6,12 @@ $(document).ready(function(){
     $("#Subrate").click(function(){
         Subrate();
     })
+    $("#BMI").click(function(){
+        BMI();
+    })
+    $("#Time").click(function(){
+        Time();
+    })
 
 
 });
@@ -38,5 +44,33 @@ var Subrate = function(){
     var sum = x + quotient;
     
     $("#output2").text("Your SubTotal is: " + "$" + quotient + " Your Total is: " + "$" + sum);
+
+}
+
+var BMI = function(){
+
+    var x = $("#number4").val();
+    var y = $("#number5").val();
+
+
+    quotient = parseInt(quotient);
+
+    var quotient = (x * .45359237) / ((y * .0254) * (y * .0254));
+    
+    
+    $("#output3").text("Your BMI is: " + quotient);
+
+}
+
+var Time = function(){
+
+    var input = $("#number6").val();
+
+
+    MinutesRe = input%1;
+    Minute = Math.ceil(MinutesRe*60);
+    Hours = input - MinutesRe;
+    
+    $("#output4").text("Hours is " + Hours + " Minutes is " + Minute);
 
 }
