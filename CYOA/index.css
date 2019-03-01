@@ -1,0 +1,18 @@
+body{
+    background-image: url(Mabey.jpg);
+    background-repeat: no-repeat;
+    background-size: 200em;
+    background-position-y: -25em;
+    margin: auto;
+    width: 20%;
+    padding: 20px;
+}
+
+h1{
+    font-size: 5em;
+    
+}
+
+section{
+    
+}
